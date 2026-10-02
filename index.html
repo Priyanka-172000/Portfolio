@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanka Deshnur | Java Full Stack Developer Portfolio</title>
+    <meta name="description" content="MCA graduate and Java Full Stack Developer skilled in Java, JSP, Servlets, JDBC, MySQL, HTML, CSS, JavaScript, and web development.">
+    <meta name="keywords" content="Java Full Stack Developer, Java Developer, Software Developer, MCA Graduate, JSP, Servlet, JDBC, MySQL, HTML, CSS, JavaScript, Priyanka Deshnur">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Priyanka Deshnur | Java Full Stack Developer">
+    <meta property="og:description" content="MCA graduate and Java Full Stack Developer skilled in building scalable web applications.">
+    <!-- Replace with your deployed website URL later -->
+    <meta property="og:url" content="https://yourportfolio.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader-content">
+            <span class="loader-text">&lt;Developer /&gt;</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Background Animated Elements -->
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Priyanka Deshnur</a>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <div class="code-badge">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Building scalable web applications...</span>
+                    </div>
+                    <h1>Hi, I'm <span class="highlight">Priyanka Deshnur</span></h1>
+                    <h2 class="typing-container">
+                        <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-intro">
+                        MCA graduate and aspiring software professional with hands-on experience in Java Full Stack Development, database-driven applications, and web technologies. Passionate about building practical, scalable, and user-friendly software solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <!-- Replace # with actual resume path when ready, e.g., assets/resume/Priyanka_Deshnur_Resume.pdf -->
+                        <a href="assets/resume/Priyanka_Deshnur_Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/priyanka-deshnur" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Priyanka-172000" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:deshnurpriyanka1@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://wa.me/918431452144" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image reveal fade-right">
+                    <div class="image-wrapper glass-card">
+                        <img src="assets/images/profile.jpg" alt="Priyanka Deshnur - Java Full Stack Developer">
+                        <div class="floating-badge badge-java">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <div class="floating-badge badge-db">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title reveal">About <span class="highlight">Me</span></h2>
+                <div class="about-container">
+                    <div class="about-image reveal fade-left">
+                        <div class="glass-card image-box">
+                            <img src="assets/images/profile.jpg" alt="Priyanka Deshnur">
+                        </div>
+                    </div>
+                    <div class="about-content reveal fade-right">
+                        <p>
+                            I am an MCA graduate with a strong interest in software development and Java Full Stack technologies. I have hands-on experience working with Java, JSP, Servlets, JDBC, MySQL, HTML, CSS, JavaScript, and web application development.
+                        </p>
+                        <p>
+                            Through my internship, academic projects, and continuous coding practice, I have gained experience in building database-driven applications, implementing DAO architecture, debugging applications, and solving programming problems.
+                        </p>
+                        <p>
+                            I am actively looking for opportunities where I can contribute, learn, and grow as a software professional.
+                        </p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-card glass-card">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>MCA Graduate</span>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <span>Java Full Stack</span>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <span>3+ Major Projects</span>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>Hands-on Internship</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title reveal">Technical <span class="highlight">Skills</span></h2>
+                <div class="skills-grid">
+                    
+                    <div class="skill-category glass-card reveal slide-up">
+                        <h3><i class="fa-solid fa-code"></i> Programming</h3>
+                        <div class="tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">C</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card reveal slide-up" style="transition-delay: 100ms;">
+                        <h3><i class="fa-brands fa-html5"></i> Frontend</h3>
+                        <div class="tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Bootstrap</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card reveal slide-up" style="transition-delay: 200ms;">
+                        <h3><i class="fa-solid fa-server"></i> Backend</h3>
+                        <div class="tags">
+                            <span class="skill-tag">JSP</span>
+                            <span class="skill-tag">Servlets</span>
+                            <span class="skill-tag">JDBC</span>
+                            <span class="skill-tag">DAO Pattern</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card reveal slide-up" style="transition-delay: 300ms;">
+                        <h3><i class="fa-solid fa-database"></i> Database</h3>
+                        <div class="tags">
+                            <span class="skill-tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card reveal slide-up" style="transition-delay: 400ms;">
+                        <h3><i class="fa-brands fa-java"></i> Java Concepts</h3>
+                        <div class="tags">
+                            <span class="skill-tag">OOP</span>
+                            <span class="skill-tag">Collections</span>
+                            <span class="skill-tag">Exception Handling</span>
+                            <span class="skill-tag">Multithreading</span>
+                            <span class="skill-tag">Interfaces</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card reveal slide-up" style="transition-delay: 500ms;">
+                        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+                        <div class="tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Eclipse</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Maven</span>
+                            <span class="skill-tag">Apache Tomcat</span>
+                            <span class="skill-tag">MySQL Workbench</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title reveal">My <span class="highlight">Projects</span></h2>
+                <div class="projects-grid">
+                    
+                    <!-- Project 1: Hotplate -->
+                    <div class="project-card glass-card reveal slide-up">
+                        <div class="project-img-wrapper">
+                            <div class="project-scene scene-hotplate">
+                                <i class="fa-solid fa-motorcycle hotplate-bike"></i>
+                                <i class="fa-solid fa-burger hotplate-food food-1"></i>
+                                <i class="fa-solid fa-pizza-slice hotplate-food food-2"></i>
+                                <i class="fa-solid fa-bowl-food hotplate-food food-3"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>HOTPLATE – Food Delivery Website</h3>
+                            <p>Full-stack food delivery web application that allows users to register, log in, browse restaurants, view menus, add items to a cart, place orders, and manage order details. The project follows DAO architecture and uses a MySQL database.</p>
+                            <div class="tech-stack">
+                                <span>Java</span><span>JSP</span><span>Servlets</span><span>JDBC</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Maven</span><span>Apache Tomcat</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Priyanka-172000/HotPlate-Food-Delivery-Website" class="btn btn-outline small" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Heart Disease -->
+                    <div class="project-card glass-card reveal slide-up">
+                        <div class="project-img-wrapper">
+                            <div class="project-scene scene-heart">
+                                <i class="fa-solid fa-heart-pulse heart-pulse"></i>
+                                <i class="fa-solid fa-heart heart-main"></i>
+                                <i class="fa-solid fa-file-medical heart-doc"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Heart Disease Prediction Using Machine Learning</h3>
+                            <p>Machine learning based web application that predicts the likelihood of heart disease based on user-provided medical parameters.</p>
+                            <div class="tech-stack">
+                                <span>Python</span><span>Scikit-Learn</span><span>Pandas</span><span>NumPy</span><span>Random Forest</span><span>Machine Learning</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Priyanka-172000/Heart-disease-Prediction-using-ML" class="btn btn-outline small" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Pharmacy -->
+                    <div class="project-card glass-card reveal slide-up">
+                        <div class="project-img-wrapper">
+                            <div class="project-scene scene-pharmacy">
+                                <i class="fa-solid fa-pills pharm-pill"></i>
+                                <i class="fa-solid fa-syringe pharm-syringe"></i>
+                                <i class="fa-solid fa-prescription-bottle-medical pharm-bottle"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Pharmacy Drug Management System</h3>
+                            <p>Java-based web application for managing medicines, inventory, users, sellers, orders, and database operations.</p>
+                            <div class="tech-stack">
+                                <span>Java</span><span>JSP</span><span>Servlets</span><span>JDBC</span><span>MySQL</span><span>HTML</span><span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Priyanka-172000/Pharmacy-Drug-Management-System" class="btn btn-outline small" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4: Aura Travel -->
+                    <div class="project-card glass-card reveal slide-up">
+                        <div class="project-img-wrapper">
+                            <div class="project-scene scene-travel">
+                                <i class="fa-solid fa-cloud travel-cloud cloud-1"></i>
+                                <i class="fa-solid fa-cloud travel-cloud cloud-2"></i>
+                                <i class="fa-solid fa-plane travel-plane"></i>
+                                <i class="fa-solid fa-train travel-train"></i>
+                                <i class="fa-solid fa-bus travel-bus"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Aura Travel – Frontend Platform</h3>
+                            <p>A responsive travel agency application featuring interactive user interfaces, dynamic state management, and third-party REST API integrations for searches and layout.</p>
+                            <div class="tech-stack">
+                                <span>React.js</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>REST APIs</span><span>Vercel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Priyanka-172000/AuraTravel" class="btn btn-outline small" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="https://aura-travel-psi.vercel.app" class="btn btn-primary small" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="timeline-section">
+            <div class="container">
+                <h2 class="section-title reveal"><span class="highlight">Internship</span> & Experience</h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item reveal slide-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <h3>Full Stack Development Intern</h3>
+                                <span class="timeline-date">2026</span>
+                            </div>
+                            <h4>TAP Academy</h4>
+                            <ul class="responsibilities-list">
+                                <li>Practiced Core Java, OOP, Collections, Multithreading, Interfaces, and problem solving.</li>
+                                <li>Built responsive web pages using HTML, CSS, and JavaScript.</li>
+                                <li>Worked with JDBC and MySQL for database connectivity.</li>
+                                <li>Implemented DAO architecture and database CRUD operations.</li>
+                                <li>Developed the HOTPLATE Food Delivery Website.</li>
+                                <li>Worked with JSP, Servlets, Maven, and Apache Tomcat.</li>
+                                <li>Participated in programming assessments, presentations, and mock interviews.</li>
+                                <li>Used GitHub for source code management and project uploads.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="timeline-section alt-bg">
+            <div class="container">
+                <h2 class="section-title reveal">Education <span class="highlight">Journey</span></h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item reveal slide-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <h3>Master of Computer Applications – MCA</h3>
+                                <span class="timeline-date">2024 – 2026</span>
+                            </div>
+                            <h4>KLE Technological University</h4>
+                            <p>Dr. M.S. Sheshgiri Campus, Belagavi</p>
+                            <div class="grade-badge">CGPA: <strong>9.13 / 10</strong></div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal slide-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <h3>Bachelor of Science</h3>
+                                <span class="timeline-date">Graduation Year: 2023</span>
+                            </div>
+                            <h4>Government First Grade College, Dharwad</h4>
+                            <div class="grade-badge">Percentage: <strong>72.21%</strong></div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="secondary-education reveal slide-up">
+                    <div class="edu-card glass-card">
+                        <h4>12th Grade</h4>
+                        <div class="grade-badge">Percentage: <strong>81.83%</strong></div>
+                    </div>
+                    <div class="edu-card glass-card">
+                        <h4>10th Grade</h4>
+                        <div class="grade-badge">Percentage: <strong>88.80%</strong></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Resume CTA Section -->
+        <section id="resume" class="resume-cta-section reveal">
+            <div class="container">
+                <div class="resume-cta-box glass-card">
+                    <h2>Want to know more about my experience, education, and technical skills?</h2>
+                    <p>Download my comprehensive resume to learn how I can add value to your team.</p>
+                    <a href="assets/resume/Priyanka_Deshnur_Resume.pdf" class="btn btn-primary large" download>
+                        <i class="fa-solid fa-file-arrow-down"></i> Download My Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title reveal">Let's <span class="highlight">Connect</span></h2>
+                <p class="contact-intro reveal">I am currently looking for opportunities in Java Development, Full Stack Development, Backend Development, Software Development, and related technical roles. Feel free to reach out.</p>
+                
+                <div class="contact-container">
+                    <div class="contact-info reveal fade-left">
+                        
+                        <a href="mailto:deshnurpriyanka1@gmail.com" class="contact-card glass-card">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info">
+                                <h3>Email</h3>
+                                <p>deshnurpriyanka1@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <a href="tel:+918431452144" class="contact-card glass-card">
+                            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="info">
+                                <h3>Phone</h3>
+                                <p>+91 8431452144</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/priyanka-deshnur" target="_blank" class="contact-card glass-card">
+                            <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="info">
+                                <h3>LinkedIn</h3>
+                                <p>linkedin.com/in/priyanka-deshnur</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://github.com/Priyanka-172000" target="_blank" class="contact-card glass-card">
+                            <div class="icon"><i class="fa-brands fa-github"></i></div>
+                            <div class="info">
+                                <h3>GitHub</h3>
+                                <p>github.com/Priyanka-172000</p>
+                            </div>
+                        </a>
+
+                        <a href="https://wa.me/918431452144" target="_blank" class="contact-card glass-card">
+                            <div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div class="info">
+                                <h3>WhatsApp</h3>
+                                <p>Message Me</p>
+                            </div>
+                        </a>
+
+                    </div>
+                    
+                    <!-- Free Formspree/Netlify integration possible by replacing the action attribute -->
+                    <div class="contact-form-wrapper glass-card reveal fade-right">
+                        <form class="contact-form" action="https://formspree.io/f/YOUR_ENDPOINT_HERE" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Priyanka Deshnur</p>
+                <p class="built-with">Built with <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS &amp; <i class="fa-brands fa-js"></i> JavaScript</p>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/priyanka-deshnur" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Priyanka-172000" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:deshnurpriyanka1@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
